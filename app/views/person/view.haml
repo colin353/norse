@@ -1,0 +1,9 @@
+%h1= @person.name
+%p=  @person.title
+
+%h3 Voting Record
+%p= "This person agrees with #{@rob.name} #{@person.similarityTo(@rob)*100}% of the time."
+
+%p= "This person agrees with #{@paul.name} #{@person.similarityTo(@paul)*100}% of the time."
+
+%p= "This person is absent #{@person.absenteeRate * 100}% of the time"

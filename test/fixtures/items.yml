@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  item_number: MyString
+  result: false
+  vote_date: 2013-11-09 23:50:41
+  committee: MyString
+
+two:
+  title: MyString
+  item_number: MyString
+  result: false
+  vote_date: 2013-11-09 23:50:41
+  committee: MyString

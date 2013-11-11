@@ -1,0 +1,8 @@
+%h1 All items
+%p This is a list of all items 
+- @items.each do |i|
+    %h3= i.name
+    %p= "Municipal code #{i.item_number}"
+    %ul
+        - i.supporters.each do |p|
+            %li= p.name
